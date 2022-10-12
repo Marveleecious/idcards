@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID CARD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registerform">
+        
+       <div id="flex"> 
+        <img id="img" src="images/IMG-20220519-WA0002.jpg" alt="fuck you" height="100px" width="100px">
+        <div id="two">
+            <p><strong>Name:</strong> <span id="fullname"></span></p>
+            <p><strong>Email: </strong><span id="emails"></span></p>
+            <p><strong>Phone: </strong><span id="phoneno"></span></p>
+            <p><strong>Age: </strong><span id="ages"></span></p>
+
+    </div>
+    </div>
+      <div id="one">
+        <p>
+            Name: <br> 
+            <input type="text" name="name"> 
+        </p>
+
+        <p>
+            Email: <br> 
+            <input type="email" name="email">
+        </p>
+        <p>
+        
+            Phone: |<br>
+        <input type="number" name="phone" onsubmit="phoneno()">
+    </p>
+    <p>
+            Age: <br>
+    <input type="number" name="age">
+    </p>
+    <input style="text-align:center; background-color: black; color: beige;" type="submit" value="Register">
+    </div>
+        </form>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

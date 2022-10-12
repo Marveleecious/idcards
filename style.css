@@ -1,0 +1,43 @@
+#registerform{
+    box-sizing: border-box;
+    height: 600px;
+    max-width: 500px;
+    margin: auto;
+    padding: 1px;
+    background-color: rgb(132, 133, 133);
+    box-shadow: rgb(197, 0, 0);
+    border: 1px grey;
+}
+#flex{
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#two{
+    padding: 5px;
+    margin: 5px;
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#one{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    width: 40%;
+    /* margin: 2px; */
+    padding: 10px;
+    border-radius: 12px;
+    text-align: left;
+}
