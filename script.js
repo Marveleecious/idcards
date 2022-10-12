@@ -17,10 +17,29 @@ let emails =document.getElementById('emails');
 emails.innerHTML = email;
 
 let phoneno =document.getElementById('phoneno');
-phoneno.innerHTML = phone;
+if (phone.startsWith('081') || phone.startsWith('080') || phone.startsWith('091') || phone.startsWith('090')  || phone.startsWith('070') || phone.startsWith('071') ) {
+    if (phone.length == 11 ){
+        valid = phone
+    }
+ else{
+    valid = "invalid"
+ }
+}
+else{
+    valid = "invalid"
+}
+phoneno.innerHTML = valid;
 
 let ages =document.getElementById('ages');
-ages.innerHTML = age;
+if (age >= 18){
+    valid = age
+}
+
+else{
+    valid = "you must be" + 18 
+}
+
+ages.innerHTML = valid;
 })
 
 
